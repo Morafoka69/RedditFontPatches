@@ -54,3 +54,10 @@ kotlin {
         freeCompilerArgs = listOf("-Xcontext-parameters")
     }
 }
+patches {
+    about {
+        name = "Custom Reddit Typography"
+        description = "Forces system fonts and custom SP sizes on Reddit."
+        version = "1.0.0"
+    }
+}
